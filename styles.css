@@ -44,6 +44,9 @@ h1{
     font-weight: 600;
     font-size: 1.25em;
 }
+.equilib:hover ,h1:hover, span:hover{
+    cursor: pointer;
+}
 h1:hover{
     color:hsl(178, 100%, 50%) ;
 }
