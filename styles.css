@@ -1,0 +1,94 @@
+.attribution { font-size: 20px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+.card{
+    background-color:hsl(216, 50%, 16%);
+    display: inline-block;
+    margin: 50px auto;
+    border-radius: 3%;
+    width: 350px;
+}
+.card-img{
+    width:100%;
+    border-radius: 3%;
+}
+
+.view{
+    position: absolute;
+    right: 41.5%;
+    top: 40%;
+    visibility: hidden;
+}
+.equilib{
+display: inline-block;
+background-color: hsl(178, 100%, 50%);
+margin-top: 25px;
+border-radius: 3%;
+position: relative;
+height: 300px;
+width: 300px;
+}
+.equilib:hover .card-img{
+    opacity: 0.5;
+    
+}
+.equilib:hover .view{
+    visibility: visible;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.25em;
+}
+h1:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+.content{
+    display: inline-block;
+    width:300px;
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+h2{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size:1em ;
+    display: inline;
+}
+span{
+    color: hsl(0, 0%, 100%);
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+.time-line{
+    display: inline;
+    position: absolute;
+    right: 0;
+    top:0;
+    margin: 0;
+    /*left: 100px;*/
+}
+.middle{
+    position: relative;
+    margin: 20px auto;
+}
+.profile{
+    width: 30px;
+    border: 1.75px solid #fff;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+hr{
+    border: none;
+    border-top: solid 1px hsl(215, 32%, 27%);
+}
+
